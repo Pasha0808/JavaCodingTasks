@@ -1,0 +1,23 @@
+Task01:
+Number -- odd & even
+Write a method which identifies if given number is even or odd
+EX:
+identify(5) --> "Odd"
+identify(6) --> "Even"
+
+
+
+Task02:
+Numbers -- Divide without / operator
+Write a method that can divide two numbers without using division operator
+
+
+
+
+Task03:
+FINRA :
+Write a method which prints out the numbers from 1 to 30 but for numbers which are
+a multiple of 3print "FIN" instead of the number and for numbers which are a
+multiple of 5, print "RA" instead of the number. for numbers which are a multiple
+of both 3 and 5, print "FINRA" instead of the number.
+
