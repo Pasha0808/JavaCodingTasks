@@ -1,6 +1,23 @@
 package week01;
 
 public class OddEvenNp {
+    public static void main(String[] args) {
+        oddOrEven(6);
+    }
+
+public static void oddOrEven(int num){
+
+    if(num%2==0){
+        System.out.println("even number");
+    }else {
+        System.out.println("odd number");
+    }
+}
+
+
+
+
+
 
 }
 /*
