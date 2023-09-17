@@ -1,6 +1,4 @@
-import week01.OddEvenNp;
-
-public class OddEven {
+public class shahrTask1 {
 
     public static void main(String[] args) {
 
@@ -12,9 +10,9 @@ identify(5) --> "Odd"
 identify(6) --> "Even"
 
 */
-       int num= 5;
+        int num = 5;
 
-        boolean isEven = num %2==0;
+        boolean isEven = num % 2 == 0;
 
         boolean isOdd = !isEven;
 
@@ -22,24 +20,30 @@ identify(6) --> "Even"
         System.out.println("isOdd = " + isOdd);
 
 
-
-     OddEven(6);
+        OddEven(6);
 
     }
 
-    public static void OddEven(int num){
+    public static void OddEven(int num) {
 
         String result;
 
-        if (num%2==0){
+        if (num % 2 == 0) {
 
             result = " num is even";
-        }else {
+        } else {
 
-            result ="num is odd";
+            result = "num is odd";
         }
         System.out.println(result);
     }
+/*
+
+Task02:
+Numbers -- Divide without / operator
+Write a method that can divide two numbers without using division operator
+
+ */
 
 
 }
