@@ -39,6 +39,7 @@ identify(6) --> "Even"
         }
         System.out.println(result);
     }
+    //added new tasks
 /*
 
 Task02:
