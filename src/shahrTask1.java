@@ -20,6 +20,8 @@ identify(6) --> "Even"
         System.out.println("isOdd = " + isOdd);
 
 
+        System.out.println("---------------------------");
+
         OddEven(6);
 
     }
