@@ -1,20 +1,24 @@
 public class shahrTask2 {
 
-    public static void main(String[] args) {
+
         /*
 
-    public static void divide (int x, int y) {
-        int num =x;
-        int count =0;
-
-        for (int i= x; num>=y; i++ ){
-            num=num-y;
-            count++;
-        }
-        System.out.println("Number "+x+" divided by "+y+ " = "+count+" with a remainder of "+x%y);
+Task02:
+Numbers -- Divide without / operator
+Write a method that can divide two numbers without using division operator
 
          */
 
 
+        public static void main(String[] args) {
+        divideWithoutDivision(9,5);
+    }
+    public static void divideWithoutDivision(int x,int y){
+        int count=0;
+        while (x>=y){
+            x-=y;
+            count++;
+        }
+        System.out.println(count + " remainder "+x%y);
     }
 }
