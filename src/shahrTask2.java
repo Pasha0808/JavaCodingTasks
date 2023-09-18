@@ -11,7 +11,7 @@ Write a method that can divide two numbers without using division operator
 
 
         public static void main(String[] args) {
-        divideWithoutDivision(9,5);
+        divideWithoutDivision(7,4);
     }
     public static void divideWithoutDivision(int x,int y){
         int count=0;
