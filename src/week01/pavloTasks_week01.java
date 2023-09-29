@@ -30,6 +30,8 @@ public class pavloTasks_week01 {
     }
 
     public static void multiple (int x, int y){
+
+
         for (int i = x; i<=y; i++){
             if (i%3==0&&i%5==0)
             {
