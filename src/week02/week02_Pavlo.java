@@ -39,7 +39,7 @@ public class week02_Pavlo {
         System.out.println(By15 +"\n"+By5 +"\n"+By3);
 
 
-        System.out.println("-------------------------------------------------");
+        System.out.println("--------------------------------------------------");
 
 
 
