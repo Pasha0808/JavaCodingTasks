@@ -3,6 +3,7 @@ package week02;
 
 public class week02_Pavlo {
 
+
     public static void main(String[] args) {
         int a=10;
         int b=5;
