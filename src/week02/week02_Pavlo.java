@@ -12,6 +12,15 @@ public class week02_Pavlo {
     }
 
     public static void main(String[] args) {
+        int a=10;
+        int b=5;
+
+        a =a+b;
+        b = a - b;
+        a = a -b;
+
+
+        System.out.println("-----------------------------------------------");
         String By15 = "";
         String By5 = "";
         String By3 = "";
