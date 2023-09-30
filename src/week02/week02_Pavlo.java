@@ -7,12 +7,15 @@ public class week02_Pavlo {
         int a=10;
         int b=5;
 
-        a =a+b;
-        b = a - b;
-        a = a -b;
+        a = a+b; //15
+        b = a-b; //10
+        a = a-b; //5
+        System.out.println("a = "+a+"\nb = "+ b);
 
 
         System.out.println("-----------------------------------------------");
+
+
         String By15 = "";
         String By5 = "";
         String By3 = "";
@@ -33,6 +36,12 @@ public class week02_Pavlo {
 
         }
         System.out.println(By15 +"\n"+By5 +"\n"+By3);
+
+
+        System.out.println("-------------------------------------------------");
+
+
+
 
     }
 }
