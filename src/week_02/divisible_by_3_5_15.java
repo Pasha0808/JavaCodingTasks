@@ -21,5 +21,7 @@ public class divisible_by_3_5_15 {
         System.out.println("divisible by 15: "+divisibleBy15);
         System.out.println("divisible by 5: " +divisibleBy5);
         System.out.println("divisible by 3: "+divisibleBy3);
+
+        //Sunday
     }
 }

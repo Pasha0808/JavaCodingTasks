@@ -36,7 +36,7 @@ public class consecutive_numbers {
                 System.out.println(i);
             }
 
-
+// Sunday
         }
     }
 }
