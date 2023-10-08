@@ -12,17 +12,14 @@ public class Prime_Number_Oksana {
     // Numbers that have more than two factors are called composite numbers.
 
     public static void main(String[] args) {
-        int number = 30;
+        int number = 16;
 
-        for (int i = 1; i <=number ; i++) {
-
-            if (number % i == 0 && number % number == 0) {
-                System.out.println("number " + number + " is  prime number");
-                break;
-            } else {
-                System.out.println("number " + number + " is not prime numbers)");
+                   if (number%2==0&&number%3==0) {
+                System.out.println("number " + number + " is  not prime number");
+                         } else if (number%1== 0 || number % number == 0)
+            {
+                System.out.println("number " + number + " is prime number");
 
             }
         }
     }
-}
