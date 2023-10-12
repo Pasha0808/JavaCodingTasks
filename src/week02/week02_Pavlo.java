@@ -2,16 +2,19 @@ package week02;
 
 
 public class week02_Pavlo {
-    public static void swap (int a, int b){
-        int num1= a; //10
-        int num2 =b; //5
 
-       num1 =a+b;
-       num2 = num1 - b;
-       num1 = num1 -num2;
-    }
 
     public static void main(String[] args) {
+        int a=10;
+        int b=5;
+
+        a =a+b;
+        b = a - b;
+        a = a -b;
+
+
+        System.out.println("-----------------------------------------------");
+        master
         String By15 = "";
         String By5 = "";
         String By3 = "";
