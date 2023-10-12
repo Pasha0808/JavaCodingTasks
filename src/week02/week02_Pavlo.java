@@ -3,7 +3,6 @@ package week02;
 
 public class week02_Pavlo {
 
-
     public static void main(String[] args) {
         int a=10;
         int b=5;
@@ -14,7 +13,6 @@ public class week02_Pavlo {
 
 
         System.out.println("-----------------------------------------------");
-        master
         String By15 = "";
         String By5 = "";
         String By3 = "";
