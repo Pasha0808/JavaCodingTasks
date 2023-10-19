@@ -1,4 +1,4 @@
-package week_03;
+package week03;
 
 public class PrimeNumber_Zhd {
     /*
