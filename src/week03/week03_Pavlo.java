@@ -26,6 +26,9 @@ public class week03_Pavlo {
     public static int reverse (int a){
         int b=a*(-1);
      return b;
+//simulate
+        //another one
+        //another
 
     }
 
