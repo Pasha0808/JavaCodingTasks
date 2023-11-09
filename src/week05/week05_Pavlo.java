@@ -7,7 +7,24 @@ public class week05_Pavlo {
     String -- Find the unique
 Write a return method that can find the unique characters from the String
 Ex: unique("AAABBBCCCDEF") ==> "DEF";
+
  */
+
+
+    public static String uniqueLetter(String str) {
+
+        String Unique = "";
+
+        for (int i = 0; i < str.length() - 1; i++) {
+            char each = str.charAt(i);
+            if (Unique.contains(each + "")) {
+                continue;
+            } else {
+                Unique += (each + "");
+            }
+        }
+        return Unique;
+    }
     public static String unique(String str)
     {
         String characterList ="";
@@ -59,6 +76,8 @@ public static String reverse(String str){
         System.out.println(unique(scan.nextLine()));
 
         //System.out.println(reverse(scan.nextLine()));
+
+        
 
 
 
